@@ -1,0 +1,82 @@
+<div class="tema">
+<h1>Calculadora</h1>
+</div>
+<hr>
+<div class="sb">
+<h2>Por favor ingrese dos números para realizar cualquier proceso matemático básico.</h2>
+</div>
+  <hr>
+<div id="calc">
+<%= form_for :calcu, :url => { :action => :resultado } do |formulario| %>
+
+<label for="numero1">Número:
+
+<%= text_field_tag 'numero1','',:size => 20 %>
+
+</label>
+
+<br><label for="numero2">Número:
+
+<%= text_field_tag 'numero2','',:size => 20 %>
+
+</label>
+
+<fieldset> <legend>Operaciones</legend>
+
+<label for="operacion_suma"></label>
+
+<%= radio_button_tag 'operacion','suma', true %>Suma
+
+<label for="operacion_resta"></label>
+
+<%= radio_button_tag 'operacion','resta' %>Resta
+
+<label for="operacion_multiplica"></label>
+
+<%= radio_button_tag 'operacion','multiplica' %>Multiplicación
+
+<label for="operacion_divide"></label>
+
+<%= radio_button_tag 'operacion','divide' %>División
+
+</fieldset>
+<br>
+<input id="bt" type="submit" value="Calcular"/>
+
+<% end %>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<%= button_to "Calcular", action: "resultado" %>-->

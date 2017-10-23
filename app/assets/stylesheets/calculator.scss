@@ -1,0 +1,107 @@
+*{
+  font-family: 'Caviar Dreams', serif;
+}
+BODY{	text-align: center;
+background-image: url(wall.jpg);
+background-size: cover;}
+.tema{
+background: #242a33;
+background-size: cover;
+color: #fff;
+padding: 5px 0;
+}
+.sb{
+  background: #242a33;
+  background-size: cover;
+  color: #fff;
+  padding: 5px 0;
+}
+form{
+  background: #242a33;
+  background-size: cover;
+  color: #fff;
+  padding: 5px 0;
+  width: 500px;
+  height:400px;
+  margin-left: 420px;
+  margin-right: 500px;
+}
+LABEL{
+display: block;
+padding:3px;
+font-size: 25px;
+font-style: italic;
+}
+input{
+  border-radius: 5px;
+  padding:5px;
+  font-size: 15px;
+}
+input:hover{
+  border-radius: 10px;
+  font-size: 18px;
+}
+FIELDSET{
+  margin: 10px 0px;
+  background: #242a33;
+  background-size: cover;
+  color: #fff;
+  padding: 5px 0;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin: 20px auto;
+    padding: 0 10px;
+display: inline-block;
+  font-size: 18px;
+}
+#numero1, #numero2{
+  width: 90px;
+  position: relative;
+}
+legend{
+  font-size: 29px;
+  color:rgb(255, 255, 255);
+  padding: 2px 10px;
+}
+
+#bt{
+  background-color: rgba(21, 33, 50, 0.88);
+  border: 20px;
+  border-radius: 90px;
+  padding: 30px 40px;
+  font-size: 25px;
+  color:white;
+}
+#bt:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+a{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  padding-top: 50px;
+  padding-left: 550px;
+  padding-right: 550px;
+  padding-bottom: 50px;
+}
+#back{
+  background-color: rgb(8, 24, 77);
+  width:1078px;
+  padding: 50px;
+  display: inline-block;
+}
+
+#back:hover {
+    background-color: #0d616c;
+    color: white;
+}
+#text{
+  font-size: 90px;
+}
+.resp{
+  font-size: 70px;
+  background-color: rgba(21, 33, 50, 0.88);
+  padding: 50px;
+  color: white;
+}
